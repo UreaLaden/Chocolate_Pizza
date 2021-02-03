@@ -1,0 +1,3 @@
+D:\Repositories\WebDevProjects\ChocolatePizza\ChocolatePizza\obj\Debug\ChocolatePizza.njsprojAssemblyReference.cache
+D:\Repositories\WebDevProjects\ChocolatePizza\ChocolatePizza\obj\Debug\ChocolatePizza.njsproj.CoreCompileInputs.cache
+D:\Repositories\WebDevProjects\ChocolatePizza\ChocolatePizza\bin\Microsoft.NodejsTools.WebRole.dll

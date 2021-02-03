@@ -1,0 +1,9 @@
+{
+  "name": "chocolate-pizza",
+  "version": "0.0.0",
+  "description": "ChocolatePizza",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
