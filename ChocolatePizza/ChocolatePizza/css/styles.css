@@ -1,4 +1,34 @@
 h1
 {
-    color:red;
+    
+}
+
+.logo
+{
+    display: inline;
+}
+
+.social
+{
+   display: inline;
+}
+
+
+table
+{
+    background-image: url("img/list-bg.png");
+}
+
+.container
+{
+    position: relative;
+    text-align: center;        
+}
+
+.centered
+{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(50px) ;
 }
