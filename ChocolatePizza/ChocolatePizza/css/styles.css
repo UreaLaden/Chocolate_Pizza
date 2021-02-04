@@ -3,6 +3,15 @@ h1
     
 }
 
+.container
+{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:800px;
+}
 .logo
 {
     display: inline;
@@ -19,7 +28,7 @@ table
     background-image: url("img/list-bg.png");
 }
 
-.container
+.recipe
 {
     position: relative;
     text-align: center;        
@@ -31,4 +40,11 @@ table
     top: 50%;
     bottom: 50%;
     transform: translateY(50px) ;
+}
+
+.author-notes
+{
+    display: inline;
+    margin-left:auto;
+    margin-right:auto;
 }
