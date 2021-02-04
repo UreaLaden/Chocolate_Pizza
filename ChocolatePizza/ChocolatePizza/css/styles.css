@@ -2,15 +2,25 @@ h1
 {
     
 }
-
-.container
+#recipe-text
 {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    text-align:justify;
+}
+.bucket
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
     display: block;
     width:800px;
+}
+.header{
+    display: inline;
+}
+.container
+{
+    
 }
 .logo
 {
@@ -28,10 +38,28 @@ table
     background-image: url("img/list-bg.png");
 }
 
+img.medium{
+    width: 800px;
+    height: auto;
+}
+img.small{
+    width: auto;
+    height: auto;
+}
+
+img.align-left{
+    float: left;
+    margin-right:10px;
+}
+.align-right{
+    float:right;
+    margin-left:10px;
+}
 .recipe
 {
     position: relative;
-    text-align: center;        
+    max-width:300px;
+    width: 50%;
 }
 
 .centered
@@ -42,9 +70,25 @@ table
     transform: translateY(50px) ;
 }
 
-.author-notes
+p.author-notes
 {
-    display: inline;
-    margin-left:auto;
-    margin-right:auto;
+    margin-right:10px;
+    width: 600px;
+}
+
+.image{
+    display:block;
+    width: auto;
+    height: auto;
+}
+
+.overlay{
+    position: inherit;
+    bottom: auto;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0);
+    color: black;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
 }
