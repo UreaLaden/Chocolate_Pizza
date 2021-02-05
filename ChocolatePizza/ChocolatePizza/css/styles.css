@@ -1,5 +1,4 @@
-h1
-{
+h1{
     margin-bottom: 0px;
     margin-top: 50px;
 }
@@ -19,41 +18,27 @@ ul
     height:100%;
 }
 
-
-
+ul li
+{
+}
 #header {
     font-size: 25px;
     margin-top: 50px;
     display: inline;
 }
 
-.logo
-{
-    display: inline;
-}
-
-.social
-{
+.social{
    display: inline;
 }
 
+#logo-head {
+}
 #main-img{
     border-top:0px;
     height:100%;
     width:100%;
 }
 
-img.medium{
-    width: 100%;
-    height:400px;
-}
-img.small{
-    width: auto;
-    height: auto;
-}
-img.large{
-    width:100%;
-}
 #article{
     font-size:20px;
     line-height:25px;
@@ -62,25 +47,22 @@ img.large{
 #author{
     float: left;
     margin-right:10px;
+    padding-right:10px;
 }
 .align-right{
     float:right;
     margin-left:10px;
 }
-.recipe {
+#recipe {
     position: relative;
-    text-align: justify;
-    display: inline;    
+    text-align:left;
+    column-count:2;
 }
 
-ul li
-{
-    padding-bottom: 5px;
-    padding-top: 5px;
-}
+
 
 .overlay{
-    columns:2;
+
     position: relative;
     bottom: auto;
     background: rgb(0,0,0);
@@ -89,17 +71,12 @@ ul li
     width: 90%;
     height:40%;
     padding: 20px;
-    text-align: left;
-    transform: translate(5%, -130%);
+    transform: translate(5%, -127%);
     font-size:20px;
     font-family:sans-serif;
 }
-
-
-.image{
-    display:block;
-    width: auto;
-    height: auto;
+#article{
+    text-indent: 20px;
 }
 
 
