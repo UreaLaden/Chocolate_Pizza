@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Chocolate Pizza</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+        <div id="header" >
+            <img src="img/small-logo.png" alt="Logo" />
+            <ul class="align-right" style="margin-top:0px">
+                <li class="social"><img src="img/fb-icon.png" alt="Facebook" /></li>
+                <li class="social"><img src="img/twit-icon.png" alt="Twitter" /></li>
+                <li class="social"><img src="img/gp-icon.png" alt="Google Plus" /></li>
+                <li class="social"><img src="img/insta-icon.png" alt="Instagram" /></li>
+                <li class="social"><img src="img/flic-icon.png" alt="Flicker" /></li>
+                <li class="social"><img src="img/pint-icon.png" alt="Pinterest" /></li>
+                <li class="social"><img src="img/rss-icon.png" alt="RSS Feed" /></li>
+            </ul>
+            <div>
+                <p>
+                    <span id="logo-head" style="font-family:Yellowtail">Delicious</span>
+                    <br />
+                        <span id="logo-bottom">THE BEST FOOD BLOG ON THE WEB</span>
+                    <br/>
+                </p>
+            </div>
+        </div>
+        <div id="content">
+            <h1>Chocolate Pizza</h1>
+	        <h6 class="align-left">POSTED ON 15 DEC 2013 / DESSERTS</h6>
+            <h6 class="align-right"><img src="img/print-icon.png">PRINT</h6>
+	        <div>
+                <img id="main-img" src="img/choco-pizza.png">
+            </div>
+            <div >
+                <div id="article">
+
+                    <img src="img/list-bg.png" alt="Recipe" class="large" />
+                    <hr id="line"/>
+                    <div>
+                        <img id="author" src="img/van-pic.png" align="left" alt="Vanessa Stevenson" />
+                        <b>Vanessa Stevenson</b>
+                        <br />
+                        Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+                    </div>
+                    <div id="sup-img" class="overlay">
+                        <ul id="recipe">
+                            <li>1 1/2 cups milk</li>
+                            <li>1/2 cups mascarpone</li>
+                            <li>1/2 tsp pink salt</li>
+                            <li>1lb Black Mission Figs</li>
+                            <li>1/2 cup brown sugar</li>
+                            <li>2-4 tbsp water</li>
+                            <li>1 1/2 cups heavy cream</li>
+                            <li>1/3 granulated sugar</li>
+                            <li>2 egg yolks</li>
+                            <li>1 lemon, juiced</li>
+                            <li>2 tbsp butter</li>
+                            <li>1 cup honey roasted pecans, roughly chopped</li>
+                        </ul>
+                    </div>
+                </div >
+            </div>	
+            
+                <!--<button class="align-right">SHARE RECIPE</button>-->
+        </div>
+
+        <div id="footer">
+            <p>Delicious 2013 - All Rights Reserved.</p>
+            <p>Proudly published with Ghost.</p>
+        </div>                           
+</body>
+</html>
