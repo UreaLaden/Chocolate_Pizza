@@ -12,11 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dekko&family=Playfair+Display&family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap" rel="stylesheet">
     <title style="font-family: Yellowtail">Chocolate Pizza</title>
 </head>
 <body>
     <div id="header">
-        <ul class="align-right" >
+        <ul class="align-right">
             <li class="social"><img src="img/fb-icon.png" alt="Facebook" /></li>
             <li class="social"><img src="img/twit-icon.png" alt="Twitter" /></li>
             <li class="social"><img src="img/gp-icon.png" alt="Google Plus" /></li>
@@ -24,6 +25,7 @@
             <li class="social"><img src="img/flic-icon.png" alt="Flicker" /></li>
             <li class="social"><img src="img/pint-icon.png" alt="Pinterest" /></li>
             <li class="social"><img src="img/rss-icon.png" alt="RSS Feed" /></li>
+            <li class="social"><img src="img/mail-icon.png" alt="Mail Feed" /></li>
         </ul>
         <img class="logo" align="left" width="40" height="40" src="img/small-logo.png"  alt="Logo" />
         <p class="logo-head" >Delicious</p>
@@ -35,14 +37,15 @@
     <div id="contents">
         <div>
             <h1>Chocolate Pizza</h1>
-            <p id="topic">                
-                <span class="align-left">POSTED ON 15 DEC 2013 / DESSERTS</span>
-                <span class="align-right">
+            <h6 id="topic">                
+                <span class="date">POSTED ON 15 DEC 2013 / DESSERTS</span>
+                <span class="share">
                     <img src="img/print-icon.png" />
                     PRINT
                 </span>
-            </p>
+            </h6>
         </div>
+        <br />
         <div id="main-img">
                 <img id="main-img" src="img/choco-pizza.png">
                 <br />
@@ -61,27 +64,31 @@
 
             <img id="sup-img" src="img/list-bg.png" alt="Recipe" class="large" />
             <hr />
-            <div id="author-info">
+            <div>
                 <img id="author" src="img/van-pic.png" align="left" alt="Vanessa Stevenson" />
+                <button class="button share" >SHARE RECIPE</button>
+                <span id="author-info">
+
                 <b>Vanessa Stevenson</b>
                 <br />
                 Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+                </span>
             </div>
             <div class="overlay">
                 <div id="sup-img" class="overlay">
                     <ul id="recipe">
-                        <li>1 1/2 cups milk</li>
-                        <li>1/2 cups mascarpone</li>
-                        <li>1/2 tsp pink salt</li>
-                        <li>1lb Black Mission Figs</li>
-                        <li>1/2 cup brown sugar</li>
-                        <li>2-4 tbsp water</li>
-                        <li>1 1/2 cups heavy cream</li>
-                        <li>1/3 granulated sugar</li>
-                        <li>2 egg yolks</li>
-                        <li>1 lemon, juiced</li>
-                        <li>2 tbsp butter</li>
-                        <li>1 cup honey roasted pecans, roughly chopped</li>
+                        <li><input type="checkbox" />  1 1/2 cups milk</li>
+                        <li><input type="checkbox" />  1/2 cups mascarpone</li>
+                        <li><input type="checkbox" />  1/2 tsp pink salt</li>
+                        <li><input type="checkbox" />  1lb Black Mission Figs</li>
+                        <li><input type="checkbox" />  1/2 cup brown sugar</li>
+                        <li><input type="checkbox" />  2-4 tbsp water</li>
+                        <li><input type="checkbox" />  1 1/2 cups heavy cream</li>
+                        <li><input type="checkbox" checked />  <del>1/3 granulated sugar</del></li>
+                        <li><input type="checkbox" checked/>  <del>2 egg yolks</del></li>
+                        <li><input type="checkbox" />  1 lemon, juiced</li>
+                        <li><input type="checkbox" />  2 tbsp butter</li>
+                        <li><input type="checkbox" />  1 cup honey roasted pecans, roughly chopped</li>
                     </ul>
                 </div>
             </div>
